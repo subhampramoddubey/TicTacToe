@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimg"
+
+    tools:context=".MainActivity"
+
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/logoimage"
+        android:layout_width="450px"
+        android:layout_height="450px"
+        android:layout_marginTop="51dp"
+        android:layout_gravity="center_horizontal"
+        android:transitionName="LogoImage"
+        android:src="@drawable/splashscreelogonew" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Mode"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="#FFFFFF"
+        android:textSize="42dp"
+        android:gravity="center"
+        android:layout_marginTop="38dp"
+
+        />
+
+
+    <Button
+
+        android:id="@+id/playVScom"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="56dp"
+        android:fontFamily="cursive"
+        android:background="@drawable/button_style"
+        android:text="PLAY VS COMPUTER"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/playwithFriend"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="56dp"
+        android:fontFamily="cursive"
+        android:background="@drawable/button_style"
+        android:text="PLAY VS FRIEND"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+</LinearLayout>
